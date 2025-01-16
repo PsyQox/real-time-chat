@@ -42,7 +42,7 @@ const App = ()=>{
   return(
     <div className="text-center bg-gray-800 h-screen">
         <h1 className="text-3xl font-bold text-white">
-          Reat time chat
+          Real time chat
         </h1>
         <Chat myMessage={myMessage} setMyMessage={setMyMessage} messages={messages} handleSubmit={handleSubmit}/>
     </div>
